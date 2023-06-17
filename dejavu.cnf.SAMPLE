@@ -1,0 +1,10 @@
+{
+    "database": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "",
+        "database": "dejavu"
+    },
+    "database_type": "mysql",
+    "fingerprint_limit" : 10
+}

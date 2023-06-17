@@ -1,0 +1,12 @@
+*.pyc
+wav
+mp3
+*.wav
+*.mp3
+.DS_Store
+*.cnf
+music_dir
+README.md
+run_tests.py
+test_dejavu.sh
+media
