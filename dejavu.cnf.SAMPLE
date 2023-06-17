@@ -6,5 +6,4 @@
         "database": "dejavu"
     },
     "database_type": "mysql",
-    "fingerprint_limit" : 10
 }
