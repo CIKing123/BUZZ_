@@ -9,8 +9,6 @@ import json
 from dejavu import Dejavu
 from dejavu.logic.recognizer.file_recognizer import FileRecognizer
 from dejavu.logic.recognizer.microphone_recognizer import MicrophoneRecognizer
-from .models import Drink
-from .serializers import DrinkSerializer
 from django.http import Http404
 from rest_framework.views import APIView
 from rest_framework.response import Response

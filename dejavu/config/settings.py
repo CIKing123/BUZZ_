@@ -40,6 +40,7 @@ FIELD_FINGERPRINTED = "fingerprinted"
 FIELD_FILE_SHA1 = 'file_sha1'
 FIELD_TOTAL_HASHES = 'total_hashes'
 
+
 # TABLE FINGERPRINTS
 FINGERPRINTS_TABLENAME = "fingerprints"
 

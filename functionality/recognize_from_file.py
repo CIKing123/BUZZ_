@@ -22,6 +22,8 @@ def send_to_acr_cloud(audio):
     re = ACRCloudRecognizer(config)
     results = re.recognize_by_file(audio, 0)
     return results
+
+
 def display_results(data):
     response = json.loads(data)
     print(response)
@@ -103,7 +105,7 @@ if __name__ == '__main__':
     results = djv.recognize(FileRecognizer, audio_file)
     if results:
         print(f"From file we recognized: {results}\n")
-        display_results(audio_file)
+        display_results(send_to_acr_cloud(audio_file))
     # best_result = max(results[0], key=lambda x: x['input_confidence'])
     # print(best_result['song_name'])
 
