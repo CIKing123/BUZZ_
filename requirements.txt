@@ -6,6 +6,8 @@ matplotlib~=3.7.1
 mysql-connector-python==8.0.17
 psycopg2==2.8.3
 
+
+
 Django~=4.2.2
 djangorestframework~=3.14.0
 pyacoustid~=1.2.2

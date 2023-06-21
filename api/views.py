@@ -17,21 +17,21 @@ from django.http import HttpResponse
 from django.core.files.base import ContentFile
 
 
-
 @api_view(['GET'])
 @permission_classes((permissions.AllowAny,))
 def getSong(request):
-    with open("dejavu.cnf.SAMPLE") as f:
+    with open("buzz.cnf") as f:
         config = json.load(f)
     djv = Dejavu(config)
 
-    results = djv.recognize(FileRecognizer, "mp3/Pain.mp3")
+    results = djv.recognize(FileRecognizer, "mp3/media.mp3")
 
     song = {
         'response': results,
     }
 
     return Response(song)
+
 
 @csrf_exempt
 def upload_audio(request):
