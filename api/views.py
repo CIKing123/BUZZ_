@@ -25,10 +25,13 @@ def getSong(request):
         config = json.load(f)
     djv = Dejavu(config)
 
-    results = djv.recognize(FileRecognizer, "mp3/Pain.mp3")
+    results = djv.recognize(FileRecognizer, "mp3/Time.mp3")
+    print(results)
 
     song = {
-        'response': results,
+        'response': {
+            results
+        },
     }
 
     return Response(song)

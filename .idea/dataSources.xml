@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Django default" uuid="f1e6c09d-9999-4a96-85ca-9d966b53f4b8">
+    <data-source source="LOCAL" name="Django default" uuid="485db19b-3b0f-40da-88fd-7e0dfed43a4c">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/BUZZ_/settings.py</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1:3306/dejavu</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/buzz</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
